@@ -1,0 +1,59 @@
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {
+    "/api/addToBrevo/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/addToBrevo/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/addToBrevo/route.js"
+      ],
+      "name": "app/api/addToBrevo/route",
+      "page": "/api/addToBrevo/route",
+      "matchers": [
+        {
+          "regexp": "^/api/addToBrevo$",
+          "originalSource": "/api/addToBrevo"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "MD8NQFI2oZAp8xjoPkR0nQ7f8kFNC8k7exhtMZJfans="
+      }
+    },
+    "/api/sendSMTP/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/sendSMTP/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/sendSMTP/route.js"
+      ],
+      "name": "app/api/sendSMTP/route",
+      "page": "/api/sendSMTP/route",
+      "matchers": [
+        {
+          "regexp": "^/api/sendSMTP$",
+          "originalSource": "/api/sendSMTP"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "MD8NQFI2oZAp8xjoPkR0nQ7f8kFNC8k7exhtMZJfans="
+      }
+    }
+  },
+  "sortedMiddleware": []
+}
