@@ -1,0 +1,25 @@
+{
+  "name": "dekr-market",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "deploy": "wrangler pages deploy .vercel/output/static --project-name=dekr-market"
+  },
+  "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.14",
+    "@phosphor-icons/react": "^2.1.10",
+    "jquery": "^3.7.1",
+    "next": "15.3.5",
+    "nodemailer": "^7.0.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-select": "^5.10.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.5"
+  }
+}

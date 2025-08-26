@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Medium.woff2') format('woff2'),
+        url('Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
